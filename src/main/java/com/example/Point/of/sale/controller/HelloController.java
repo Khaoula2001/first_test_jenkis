@@ -23,4 +23,9 @@ public class HelloController {
     public String getPresentation(){
         return "presentation";
     }
+
+    @GetMapping
+    public String hello() {
+        return "Hello from New Test :)";
+    }
 }
