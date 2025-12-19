@@ -18,10 +18,8 @@ public class HelloController {
         return "Users";
     }
 
-
     @GetMapping("/presentation")
     public String getPresentation(){
         return "presentation";
     }
-    
 }
